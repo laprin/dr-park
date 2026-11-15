@@ -15,8 +15,6 @@ Upload the contents of this folder to `https://liposuction-laprinps.com/dr-park/
 
 Shared folders: `css/`, `fonts/`, `img/`, `video/`. The page uses its own `css/` and `img/` inside `/dr-park/`, so it does not touch the microsite's files.
 
-**Missing file:** put `video/parkbc-interview-ko.mp4` (about 6.2 MB, the interview video) into `video/`. It was too large to include. Dr. Park has the original.
-
 If you use a different folder than `/dr-park/`, find and replace `https://liposuction-laprinps.com/dr-park/` in the four HTML files. It appears in canonical, hreflang, og:url, og:image, twitter:image and the JSON-LD.
 
 ## 2. Already done inside the pages
@@ -41,7 +39,7 @@ Also add a text link under the director section on each language home page and o
 
 ## 4. After upload
 
-1. Open each URL and check: images, both videos, language switcher, all messenger buttons.
+1. Open each URL and check: images, all videos (the Korean page has the interview video), language switcher, all messenger buttons.
 2. View page source and confirm the JSON-LD block is intact. Test one URL in Google's Rich Results Test.
 3. Add the four URLs to `sitemap.xml` and request indexing in Google Search Console.
 4. Check `robots.txt` does not block OAI-SearchBot, PerplexityBot or Claude-SearchBot (default `User-agent: *` allow is fine).

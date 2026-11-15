@@ -9,10 +9,6 @@
   fonts/            Pretendard 서체 (SIL OFL, 라이선스 동봉)
   img/, video/      사진·영상
 
-빠진 파일 1개
-  video/parkbc-interview-ko.mp4 (원장 인터뷰, 약 6.2MB)
-  용량 제한으로 이 묶음에 넣지 못했습니다. 원본 파일을 같은 이름으로 video/ 폴더에 넣어 주세요.
-
 서버에 올릴 때는 폴더 구조를 그대로 유지하면 됩니다.
 
 
